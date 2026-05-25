@@ -15,7 +15,7 @@ st.set_page_config(
 # LOAD DATA
 # ---------------------------------------------------
 df = pd.read_csv(
-    "../data/raw/Sample - Superstore.csv",
+    "data/raw/Sample - Superstore.csv",
     encoding="latin1"
 )
 
