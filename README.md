@@ -1,10 +1,26 @@
 # 🛒 Superstore Sales Analysis
 
+[![Streamlit App](https://img.shields.io/badge/Live_Dashboard-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://superstore-sales-dashboard-bxglz8qt3i3okikpglk7hs.streamlit.app/)
+
+[![Python](https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-3F4F75?style=for-the-badge&logo=plotly)](https://plotly.com/)
+
 > A comprehensive end-to-end exploratory data analysis (EDA) of retail sales data, uncovering actionable business insights across product categories, customer segments, and time periods.
 
 ---
 
 ## 📌 Project Overview
+
+---
+
+# 🌐 Live Dashboard
+
+🚀 Interactive deployed application:
+
+👉 [Open Live Dashboard](TU_STREAMLIT_URL)
+
+---
 
 This project dives deep into a retail Superstore dataset to understand what drives revenue and profitability. By combining data wrangling, statistical analysis, and rich visualizations, this analysis surfaces the key levers that business stakeholders can act on — from which product categories deserve investment to which customers generate the most value.
 
@@ -20,36 +36,52 @@ This project dives deep into a retail Superstore dataset to understand what driv
 ## 🧰 Tech Stack
 
 | Tool | Purpose |
-|---|---|
-| **Python** | Core programming language |
-| **Pandas** | Data loading, cleaning, and transformation |
-| **Matplotlib** | Base charting and figure customization |
-| **Seaborn** | Statistical visualizations and styling |
-| **Jupyter Notebook** | Interactive analysis environment |
+|-----------------------|---------------------------------------------|
+| **Python**            | Core programming language                   |
+| **Pandas**            | Data manipulation and analysis              |
+| **Plotly**            | Interactive visualizations                  |
+| **Streamlit**         | Interactive dashboard application           |
+| **Jupyter Notebook**  | Exploratory data analysis                   |
+| **Git & GitHub**      | Version control and portfolio hosting       |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-superstore-sales-analysis/
+```text
+sales-analysis-project/
+│
+├── app/
+│   └── app.py
+│
+├── app_screenshots/
 │
 ├── data/
-│   └── superstore.csv              # Raw dataset
+│   └── raw/
+│       └── Sample - Superstore.csv
 │
 ├── images/
-│   ├── sales_by_category.png
-│   ├── profit_by_category.png
-│   ├── monthly_sales_trend.png
-│   ├── top_10_customers.png
-│   ├── sales_distribution.png
-│   └── sales_vs_profit.png
 │
 ├── notebooks/
-│   └── superstore_eda.ipynb        # Full analysis notebook
+│   └── superstore_eda.ipynb
 │
+├── .streamlit/
+│   └── config.toml
+│
+├── .gitignore
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── venv/
+
+---
+
+# 🧱 BLOQUE 7 — FINAL GIT PUSH
+
+## 📍 TERMINAL
+
+```bash id="f14"
+cd ~/Desktop/data_projects/sales-analysis-project
 ```
 
 ---
@@ -99,6 +131,34 @@ superstore-sales-analysis/
 ---
 
 ## 🔍 Key Business Insights
+
+---
+
+# 📸 Dashboard Preview
+
+## Overview
+
+![Dashboard Overview](app_screenshots/dashboard_overview.png)
+
+---
+
+## Sales Analysis
+
+![Sales Analysis](app_screenshots/sales_analysis_tab.png)
+
+---
+
+## Customer Analysis
+
+![Customer Analysis](app_screenshots/customer_analysis_tab.png)
+
+---
+
+## Profitability Analysis
+
+![Profitability Analysis](app_screenshots/profitability_analysis_tab.png)
+
+---
 
 1. **Technology is your profit engine.** Despite similar top-line sales to other categories, Technology delivers far superior margins. Prioritizing this category in marketing and inventory could yield disproportionate profit gains.
 
