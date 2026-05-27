@@ -18,7 +18,7 @@
 
 🚀 Interactive deployed application:
 
-👉 [Open Live Dashboard](TU_STREAMLIT_URL)
+👉 [Open Live Dashboard](https://superstore-sales-dashboard-bxglz8qt3i3okikpglk7hs.streamlit.app/)
 
 ---
 
@@ -73,7 +73,6 @@ sales-analysis-project/
 ├── README.md
 ├── requirements.txt
 └── venv/
-
 ---
 
 # 🧱 BLOQUE 7 — FINAL GIT PUSH
@@ -205,8 +204,8 @@ This project uses the publicly available **Superstore Sales dataset**, a widely 
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- GitHub: [@salvatore.csprojects](https://github.com/salvatore.csprojects)
+- LinkedIn: [linkedin.com/in/salvatore-lara-0a9901411/](https://linkedin.com/in/salvatore-lara-0a9901411/)
 
 ---
 
