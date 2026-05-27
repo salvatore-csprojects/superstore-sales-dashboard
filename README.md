@@ -135,10 +135,6 @@ cd ~/Desktop/data_projects/sales-analysis-project
 
 # 📸 Dashboard Preview
 
-## Overview
-
-![Dashboard Overview](app_screenshots/dashboard_overview.png)
-
 ---
 
 ## Sales Analysis
